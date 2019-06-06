@@ -1,7 +1,7 @@
 N=int(input())
 T=N
 R=0
-while(n>0):
+while(N>0):
     D=N%10
     R=R*10+D
     N=N//10
