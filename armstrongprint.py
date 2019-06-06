@@ -1,12 +1,12 @@
-lower = 100
-upper = 2000
-for num in range(lower, upper + 1):
-   order = len(str(num))
+A = int(input())
+B = int(input())
+for i in range(A, B + 1):
+   O = len(str(i))
    sum = 0
-   temp = num
+   temp = i
    while temp > 0:
        digit = temp % 10
-       sum += digit ** order
+       sum += digit ** O
        temp //= 10
-       if num == sum:
-       print(num)
+       if i == sum:
+          print(i)
