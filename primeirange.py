@@ -1,6 +1,6 @@
-A =int(input())
-B = int(input())
-for i in range(A, B + 1):
+x=int(input())
+y = int(input())
+for i in range(x, y + 1):
    if i > 1: 
        for n in range(2, i): 
            if (i % n) == 0: 
