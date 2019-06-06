@@ -1,4 +1,4 @@
-N = 371
+N = int(input())
 S = 0
 T = N
 while T > 0:
