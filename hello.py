@@ -1,4 +1,6 @@
-for i in range(5):
-    print("Hello")
+n=int(input())
+for i in range(n):
+    if i<=n:
+        print("Hello")
 
 
