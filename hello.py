@@ -1,6 +1,5 @@
-n=int(input())
-for i in range(n):
-    if i<=n:
-        print("Hello")
+N=int(input())
+for i in range(N):
+    print("Hello")
 
 
