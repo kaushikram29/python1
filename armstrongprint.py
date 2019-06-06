@@ -1,12 +1,12 @@
-A = int(input())
-B = int(input())
-for i in range(A, B + 1):
-   O = len(str(i))
+lower = int(input())
+upper = int(input())
+for num in range(lower, upper + 1):
+   order = len(str(num))
    sum = 0
-   temp = i
+   temp = num
    while temp > 0:
        digit = temp % 10
-       sum += digit ** O
+       sum += digit ** order
        temp //= 10
-       if i == sum:
-          print(i)
+       if num == sum:
+       		print(num)
