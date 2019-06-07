@@ -1,5 +1,5 @@
-n1=int(input())
-n2=1
-for x in range(1,n1+1,1):
-     n2=x*n2
-print (n2)
+x=int(input())
+y=1
+for i in range(1,x+1,1):
+     y=i*y
+print (y)
